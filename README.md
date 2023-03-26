@@ -1,24 +1,24 @@
-<h1>Fuzz Face - Efeito de distorção em estilo Fuzz para o Cabbage</h1>
+<h1>Fuzz Face - Fuzz-style distortion effect for Cabbage</h1>
 
-Este código implementa um efeito de distorção estilo Fuzz Face para o Cabbage, um ambiente de desenvolvimento de áudio em tempo real baseado em linguagem de programação.
+This code implements a Fuzz Face-style distortion effect for Cabbage, a real-time audio development environment based on a programming language.
 
-O efeito é criado usando dois controles deslizantes, um para controlar a quantidade de distorção de fuzz e outro para ajustar o nível de saída. O controle deslizante de fuzz permite ajustar a intensidade da distorção, enquanto o controle deslizante de volume permite ajustar o nível de saída do sinal processado.
+The effect is created using two sliders, one to control the amount of fuzz distortion and another to adjust the output level. The fuzz slider allows you to adjust the intensity of the distortion, while the volume slider allows you to adjust the output level of the processed signal.
 
-O código está organizado em um arquivo .csd que contém um instrumento e um score. O instrumento (instr 1) é responsável por processar o sinal de entrada e aplicar a distorção de fuzz. O score é responsável por iniciar o instrumento e executá-lo por um período de tempo determinado.
+The code is organized in a .csd file that contains an instrument and a score. The instrument (instr 1) is responsible for processing the input signal and applying the fuzz distortion. The score is responsible for starting the instrument and running it for a specified period of time.
 
-<h2>Requisitos</h2>
+<h2>Requirements</h2>
 
-Para executar o código, é necessário ter o Cabbage e o Csound instalados em seu computador. O Cabbage é um ambiente de desenvolvimento de áudio em tempo real baseado em linguagem de programação, enquanto o Csound é uma linguagem de programação de síntese de áudio.
+To run the code, you need to have Cabbage and Csound installed on your computer. Cabbage is a real-time audio development environment based on a programming language, while Csound is an audio synthesis programming language.
 
-<strong>Como usar</strong>
+<strong>How to use </strong>
     <ul>
-        <li>Abra o arquivo .csd em um editor de código (como o Notepad++ ou o Atom).</li>
-        <li>Abra o Cabbage e execute o arquivo .csd.</li>
-        <li>Use os controles deslizantes "Fuzz" e "Out" para ajustar a quantidade de distorção e o nível de saída, respectivamente.</li>
-        <li>Aplique o efeito de distorção de fuzz em seu sinal de áudio.</li>
+        <li>Open Cabbage and run the .csd file</li>
+        <li>Use the "Fuzz" and "Out" sliders to adjust the amount of distortion and the output level, respectively.</li>
+        <li>Apply the fuzz distortion effect to your audio signal.</li>
     </ul>
-<h2>Contribuição</h2>
-Este é um projeto de código aberto e as contribuições são bem-vindas. Sinta-se à vontade para enviar pull requests para melhorias ou correções de bugs. Qualquer sugestão ou ideia é bem-vinda também.
-Licença
 
-Este código é licenciado sob a licença MIT. Consulte o arquivo LICENSE.md para obter mais informações.
+<h2>Contribution</h2>
+This is an open-source project and contributions are welcome. Feel free to send pull requests for improvements or bug fixes. Any suggestions or ideas are also welcome.
+
+<h2>Lincese</h2>
+This code is licensed under the MIT License. See the LICENSE.md file for more information.
